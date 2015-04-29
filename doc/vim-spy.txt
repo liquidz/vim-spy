@@ -21,7 +21,6 @@ Changelog					|vim-spy-changelog|
 ==============================================================================
 Introduction					*vim-spy-introduction*
 
-vim-spy
 All your vim are belong to us.
 
 Requirements:
@@ -29,8 +28,7 @@ Requirements:
     https://github.com/liquidz/vim-elastic
   vim-yacd (OPTIONAL)
     https://github.com/liquidz/vim-yacd
-    vim-yacd is used for getting git repository name.
-
+    This is used for getting git repository name.
 
 ==============================================================================
 Interface					*vim-spy-interface*
@@ -38,34 +36,28 @@ Interface					*vim-spy-interface*
 ------------------------------------------------------------------------------
 Commands					*vim-spy-commands*
 
-StartSpy				*StartSpy*
+StartSpy					*StartSpy*
 	Start to spy your vim.
-	
-StopSpy				*StopSpy*
+StopSpy						*StopSpy*
 	Stop to spy your vim.
-	
 
 
 ------------------------------------------------------------------------------
 Functions					*vim-spy-functions*
 
-spy#recordBuffer(action)				*spy#recordBuffer*
+spy#recordBuffer(action)			*spy#recordBuffer*
 	Record buffer information.
-	
 
-spy#recordAny(action, ...)				*spy#recordAny*
+spy#recordAny(action, ...)			*spy#recordAny*
 	Record any information.
-	
 
 spy#keepBufferData()				*spy#keepBufferData*
 	Keep following buffer data in buffer variable.
 	 - line count
 	 - file size
-	
 
-spy#recordBufferDataDiff()				*spy#recordBufferDataDiff*
+spy#recordBufferDataDiff()			*spy#recordBufferDataDiff*
 	Record difference of buffer data that is kept in buffer variable.
-	
 
 
 
@@ -79,7 +71,6 @@ Customizing					*vim-spy-customizing*
 
 g:vim_spy_auto_start				*g:vim_spy_auto_start*
 	Set 1 to start spying vim automatically.
-	
 
 
 
